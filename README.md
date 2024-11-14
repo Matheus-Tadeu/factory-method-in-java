@@ -24,7 +24,7 @@ docker-compose up --build -d
 
 ## Documentação da API
 
-A documentação Swagger do projeto pode ser acessada através do seguinte link quando o projeto estiver rodando: [Link documentação Swagger](http://localhost:9000/api/documentation)
+A documentação Swagger do projeto pode ser acessada através do seguinte link quando o projeto estiver rodando: http://localhost:8080/swagger-ui/index.html#/
 
 
 ## Como executar os testes
@@ -38,13 +38,7 @@ mvn test
 
 ## Coverage
 
-Comando para criar ou atualizar o coverage dos testes:
-```bash
-make coverage
-```
-
-O relatório de cobertura de testes pode ser encontrado na seguinte URL: [Link para o relatório de cobertura](http://localhost:63342/factory-method-in-php/Coverage/html/index.html)
-
+O relatório de cobertura de testes pode ser encontrado na seguinte URL: [Link para o relatório de cobertura](http://localhost:63343/factory-method-in-java/attribute/target/site/jacoco/index.html)
 
 
 ## Contribuições
